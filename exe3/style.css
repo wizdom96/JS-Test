@@ -1,0 +1,91 @@
+body {
+  font-family: Roboto;
+  background: #73d2df;
+  background: linear-gradient(to right, #73d2df, #031770);
+}
+
+#container {
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(204, 79, 79, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+h1 {
+  background: #1f030c;
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#vkupnasuma {
+  font-size: 14px;
+  color: blue;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#vraboteni {
+  width: 30%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: blue;
+  background-color: #f7f7f7;
+  font-size: 20px;
+}
+
+#procent {
+  padding: 5px 5px 8px 8px;
+  font-size: 25px;
+}
+#presmetano {
+  font-size: 25px;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 5px 5px 8px 8px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: blue;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: rgba(36, 103, 204, 0.932);
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#total {
+  color: red;
+}

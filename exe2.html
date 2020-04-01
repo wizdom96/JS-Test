@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+
+<script>
+  check("Test");
+  check("Madam");
+  check("Level");
+  check("Primer");
+  check("Kayak");
+  check("Football");
+  check("Anna");
+
+  function check(str) {
+    str = str.toUpperCase();
+    isPalinodrome = true;
+    let strArray = str.split("");
+    for (let i = 0; i < strArray.length / 2; i++) {
+      if (strArray[i] !== strArray[strArray.length - 1 - i]) {
+        isPalinodrome = false;
+      }
+    }
+    console.log(isPalinodrome);
+  }
+</script>

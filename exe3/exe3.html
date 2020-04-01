@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Premetka na baksiz</h1>
+      <div id="calculator">
+        <form>
+          <p>Vnesi ja sumata na smetkata.</p>
+          <p>
+            <input id="vkupnasuma" type="number" />
+          </p>
+
+          <p>Kolku bevte zadovolni od uslugata?</p>
+          <p>
+            <select id="procent">
+              <option disabled selected value="0">-- Selektiraj --</option>
+              <option value="0.3">30% - Odlicno</option>
+              <option value="0.2">20% - Mnogu dobro</option>
+              <option value="0.15">15% - OK</option>
+              <option value="0.1">10% - Dovolno</option>
+              <option value="0.05">5% - Katastrofa</option>
+            </select>
+          </p>
+        </form>
+
+        <p>Kolku lujge ke go delat baksisot?</p>
+        <input id="vraboteni" type="number" />
+
+        <button type="button" id="presmetaj">
+          Presmetaj
+        </button>
+
+        <div id='presmetano'></div>
+      </div>
+
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
