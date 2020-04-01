@@ -10,11 +10,11 @@ function presmetajbakzis() {
     alert("Ve molam vnesete vrednosti!");
   } else {
     let vkupno = (vkupnasuma * procent) / vraboteni;
-    vkupno = Math.round(total * 100) / 100;
-    vkupno = total.toFixed(2);
+    vkupno = Math.round(vkupno * 100) / 100;
+    vkupno = vkupno.toFixed(2);
 
     document.getElementById("presmetano").innerHTML = `   
-        Vkupno baksiz po osoba: <br><span id='total'>${vkupno}</span> denari.
+        Vkupno baksiz po osoba: <br><span id='vkupno'>${vkupno}</span> denari.
     `;
   }
 }
